@@ -1,4 +1,4 @@
-# 🔧 Fix "Cannot find module 'react'" Error
+# Fix "Cannot find module 'react'" Error
 
 ## Vấn đề:
 ```
@@ -10,7 +10,7 @@ Cannot find module 'react' or its corresponding type declarations. ts(2307)
 - TypeScript không tìm thấy type declarations
 - Cache bị lỗi
 
-## ✅ Giải pháp - Chạy từng bước:
+## Giải pháp - Chạy từng bước:
 
 ### Bước 1: Xóa cache và node_modules
 
@@ -56,7 +56,7 @@ Trong VS Code:
 2. Gõ: `Developer: Reload Window`
 3. Enter
 
-## 🔍 Kiểm tra sau khi fix:
+## Kiểm tra sau khi fix:
 
 ```bash
 # Kiểm tra node_modules có đúng không
@@ -69,7 +69,7 @@ ls node_modules/@types/react
 npm run dev
 ```
 
-## ✅ Kết quả mong đợi:
+## Kết quả mong đợi:
 
 Sau khi chạy `npm run dev`, bạn sẽ thấy:
 
@@ -81,7 +81,7 @@ Sau khi chạy `npm run dev`, bạn sẽ thấy:
  ✓ Ready in 2.3s
 ```
 
-## 🚨 Nếu vẫn lỗi:
+## Nếu vẫn lỗi:
 
 ### Option 1: Cài dependencies một cách manual
 
@@ -120,7 +120,7 @@ npm -v
 
 Nếu Node.js cũ, update tại: https://nodejs.org/
 
-## 📋 Checklist fix lỗi:
+## Checklist fix lỗi:
 
 - [ ] Xóa `node_modules` và `package-lock.json`
 - [ ] Xóa `.next` folder
@@ -131,14 +131,14 @@ Nếu Node.js cũ, update tại: https://nodejs.org/
 - [ ] Kiểm tra `node_modules/@types/react` có tồn tại
 - [ ] Chạy `npm run dev`
 
-## 🎯 Lưu ý quan trọng:
+## Lưu ý quan trọng:
 
 1. **Đảm bảo đúng thư mục**: Phải ở trong `frontend/` folder
 2. **Internet connection**: Cần internet để download packages
 3. **Quyền admin**: Có thể cần run terminal as administrator (Windows)
 4. **Antivirus**: Tạm thời tắt antivirus nếu nó block npm install
 
-## ✅ Package versions đã fix:
+## Package versions đã fix:
 
 Đã update `package.json` với exact versions (không dùng `^`):
 
@@ -157,7 +157,7 @@ Nếu Node.js cũ, update tại: https://nodejs.org/
 }
 ```
 
-## 🆘 Vẫn không được?
+## Vẫn không được?
 
 Gửi screenshot của:
 1. Output của `npm install`

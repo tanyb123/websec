@@ -1,8 +1,8 @@
-# 🎨 Student Management System - Frontend (React 18 + Next.js 14)
+# Student Management System - Frontend (React 18 + Next.js 14)
 
 Giao diện đăng nhập và đăng ký chuyên nghiệp được xây dựng bằng React 18, Next.js 14, TypeScript và Tailwind CSS.
 
-## 🚀 Công nghệ sử dụng
+## Công nghệ sử dụng
 
 - **Next.js 14** - React framework với App Router
 - **React 18.3** - UI library
@@ -10,7 +10,7 @@ Giao diện đăng nhập và đăng ký chuyên nghiệp được xây dựng b
 - **Tailwind CSS 3.4** - Utility-first CSS framework
 - **Lucide React** - Icon library
 
-## 📁 Cấu trúc dự án
+## Cấu trúc dự án
 
 ```
 frontend/
@@ -35,31 +35,26 @@ frontend/
 └── package.json             # Dependencies
 ```
 
-## 🎯 Tính năng
+## Tính năng
 
-### ✨ Sign In Page (`/signin`)
-- ✅ Form đăng nhập với validation
-- ✅ Remember me checkbox
-- ✅ Forgot password link
-- ✅ Demo accounts (click để auto-fill):
-  - **Admin**: `admin` / `admin123`
-  - **Teacher**: `teacher.nguyen` / `teacher123`
-  - **Student**: `student.pham` / `student123`
-- ✅ Loading state khi submit
-- ✅ Error handling
+### Sign In Page (`/signin`)
+- Form đăng nhập với validation
+- Remember me checkbox
+- Forgot password link
+- Loading state khi submit
+- Error handling
 
-### ✨ Sign Up Page (`/signup`)
-- ✅ Chọn vai trò (Student/Teacher) với UI đẹp
-- ✅ Form validation đầy đủ:
+### Sign Up Page (`/signup`)
+- Form validation đầy đủ:
   - Email format validation
   - Phone number validation (Vietnamese format)
   - Password strength indicator (weak/medium/strong)
   - Password confirmation matching
-- ✅ Real-time password strength checking
-- ✅ Terms & conditions checkbox
-- ✅ Responsive design
+- Real-time password strength checking
+- Terms & conditions checkbox
+- Responsive design
 
-## 🛠️ Cài đặt và chạy
+## Cài đặt và chạy
 
 ### Bước 1: Cài đặt dependencies
 
@@ -83,7 +78,7 @@ npm run build
 npm start
 ```
 
-## 🎨 Thiết kế
+## Thiết kế
 
 ### Nguyên tắc thiết kế
 - **Clean & Professional**: Không sử dụng gradient phức tạp
@@ -103,13 +98,13 @@ npm start
 - **Body**: Regular, base (16px)
 - **Small**: Regular, sm (14px)
 
-## 📱 Responsive Design
+## Responsive Design
 
 - **Desktop** (≥ 1024px): Full layout
 - **Tablet** (768px - 1023px): Adjusted spacing
 - **Mobile** (< 768px): Stacked layout, full-width components
 
-## 🔧 Tùy chỉnh
+## Tùy chỉnh
 
 ### Thay đổi màu sắc
 
@@ -145,7 +140,7 @@ if (!emailRegex.test(formData.email)) {
 }
 ```
 
-## 🔌 Tích hợp Backend
+## Tích hợp Backend
 
 Hiện tại đây là **frontend demo** với validation client-side. Để tích hợp với backend:
 
@@ -225,7 +220,7 @@ const handleSubmit = async (e: FormEvent) => {
 };
 ```
 
-## 📦 Components
+## Components
 
 ### Button Component
 
@@ -272,15 +267,15 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 </Card>
 ```
 
-## 🔒 Security Best Practices
+## Security Best Practices
 
-- ✅ Client-side validation (không thay thế server-side)
-- ✅ HTTPS trong production
-- ✅ Environment variables cho sensitive data
-- ✅ CSRF protection với NextAuth.js
-- ✅ XSS protection (React mặc định)
+- Client-side validation (không thay thế server-side)
+- HTTPS trong production
+- Environment variables cho sensitive data
+- CSRF protection với NextAuth.js
+- XSS protection (React mặc định)
 
-## 📝 Scripts
+## Scripts
 
 ```bash
 npm run dev      # Chạy development server
@@ -289,7 +284,7 @@ npm run start    # Chạy production server
 npm run lint     # Lint code
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Port 3000 đã được sử dụng?
 
@@ -317,7 +312,7 @@ content: [
 ],
 ```
 
-## 📚 Tài liệu tham khảo
+## Tài liệu tham khảo
 
 - [Next.js Documentation](https://nextjs.org/docs)
 - [React Documentation](https://react.dev)
@@ -325,7 +320,7 @@ content: [
 - [TypeScript Documentation](https://www.typescriptlang.org/docs)
 - [NextAuth.js Documentation](https://next-auth.js.org)
 
-## 🎓 Demo Accounts
+## Demo Accounts
 
 | Role | Username | Password | Description |
 |------|----------|----------|-------------|
@@ -333,11 +328,11 @@ content: [
 | Teacher | `teacher.nguyen` | `teacher123` | Giáo viên |
 | Student | `student.pham` | `student123` | Sinh viên |
 
-## 📄 License
+## License
 
 MIT License
 
-## 👨‍💻 Author
+## Author
 
 Created for Student Management System with OAuth2 & Keycloak
 

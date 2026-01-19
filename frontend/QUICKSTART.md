@@ -1,8 +1,8 @@
-# 🚀 Quick Start Guide
+# Quick Start Guide
 
 ## Cài đặt nhanh (3 bước)
 
-### 1️⃣ Cài đặt dependencies
+### 1. Cài đặt dependencies
 
 ```bash
 cd frontend
@@ -14,13 +14,13 @@ Nếu gặp lỗi, thử:
 npm install --legacy-peer-deps
 ```
 
-### 2️⃣ Chạy development server
+### 2. Chạy development server
 
 ```bash
 npm run dev
 ```
 
-### 3️⃣ Mở trình duyệt
+### 3. Mở trình duyệt
 
 Truy cập: **http://localhost:3000**
 
@@ -28,7 +28,7 @@ Bạn sẽ được redirect đến trang `/signin`
 
 ---
 
-## 📍 Routes
+## Routes
 
 - **/** → Redirect to `/signin`
 - **/signin** → Trang đăng nhập
@@ -36,37 +36,27 @@ Bạn sẽ được redirect đến trang `/signin`
 
 ---
 
-## 🎭 Demo Accounts
-
-Click vào các button demo trong trang signin để tự động điền:
-
-| Username | Password | Role |
-|----------|----------|------|
-| `admin` | `admin123` | Admin |
-| `teacher.nguyen` | `teacher123` | Teacher |
-| `student.pham` | `student123` | Student |
+## Demo Accounts
 
 ---
 
-## 🎨 Features
+## Features
 
 ### Sign In (`/signin`)
-- ✅ Username & password validation
-- ✅ Remember me checkbox
-- ✅ Demo accounts (1-click auto-fill)
-- ✅ Loading state
-- ✅ Error messages
+- Username & password validation
+- Remember me checkbox
+- Loading state
+- Error messages
 
 ### Sign Up (`/signup`)
-- ✅ Role selection (Student/Teacher)
-- ✅ Multi-step form với validation
-- ✅ Password strength meter
-- ✅ Real-time validation
-- ✅ Terms & conditions
+- Form với validation
+- Password strength meter
+- Real-time validation
+- Terms & conditions
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **React 18.3** - Latest React
 - **Next.js 14** - App Router
@@ -76,7 +66,7 @@ Click vào các button demo trong trang signin để tự động điền:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 frontend/
@@ -94,9 +84,9 @@ frontend/
 
 ---
 
-## 🎯 Thiết kế
+## Thiết kế
 
-- **Clean & Professional** ✨
+- **Clean & Professional**
 - **No gradients** (như bạn yêu cầu)
 - **Modern UI** với Tailwind CSS
 - **Responsive** trên mọi thiết bị
@@ -104,7 +94,7 @@ frontend/
 
 ---
 
-## 🔧 Customize
+## Customize
 
 ### Đổi màu chính
 
@@ -127,7 +117,7 @@ Tìm và thay thế icon SVG trong phần logo.
 
 ---
 
-## ⚠️ Lưu ý quan trọng
+## Lưu ý quan trọng
 
 1. **Đây là UI demo** - Không có backend integration
 2. **Client-side validation only** - Cần thêm server-side validation
@@ -135,7 +125,7 @@ Tìm và thay thế icon SVG trong phần logo.
 
 ---
 
-## 🔌 Next Steps
+## Next Steps
 
 Để hoàn thiện hệ thống:
 
@@ -148,7 +138,7 @@ Chi tiết xem trong `README.md`
 
 ---
 
-## 🆘 Troubleshooting
+## Troubleshooting
 
 ### Lỗi: "Cannot find module 'next'"
 ```bash
@@ -170,7 +160,7 @@ Kiểm tra `tailwind.config.ts` có đúng paths.
 
 ---
 
-## 📞 Support
+## Support
 
 - Xem **README.md** cho hướng dẫn chi tiết
 - Kiểm tra console (F12) nếu có lỗi
@@ -178,4 +168,4 @@ Kiểm tra `tailwind.config.ts` có đúng paths.
 
 ---
 
-**Happy coding! 🎉**
+**Happy coding!**

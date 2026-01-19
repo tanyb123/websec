@@ -1,21 +1,21 @@
-# ✅ Installation Complete!
+# Installation Complete!
 
-## 🎉 Dependencies đã được cài đặt thành công!
+## Dependencies đã được cài đặt thành công!
 
 ### Installed packages:
-- ✅ `react@18.3.1`
-- ✅ `react-dom@18.3.1`
-- ✅ `next@14.2.0`
-- ✅ `@types/react@18.3.1`
-- ✅ `@types/react-dom@18.3.0`
-- ✅ `typescript@5.3.3`
-- ✅ All other dependencies
+- `react@18.3.1`
+- `react-dom@18.3.1`
+- `next@14.2.0`
+- `@types/react@18.3.1`
+- `@types/react-dom@18.3.0`
+- `typescript@5.3.3`
+- All other dependencies
 
-### 📦 Total: 392 packages installed
+### Total: 392 packages installed
 
 ---
 
-## 🔧 Fix lỗi TypeScript trong VS Code:
+## Fix lỗi TypeScript trong VS Code:
 
 ### Bước 1: Restart TypeScript Server
 
@@ -37,7 +37,7 @@
 
 ---
 
-## 🚀 Chạy Development Server:
+## Chạy Development Server:
 
 ```bash
 npm run dev
@@ -47,7 +47,7 @@ Mở trình duyệt: **http://localhost:3000**
 
 ---
 
-## ✅ Verify Installation:
+## Verify Installation:
 
 Chạy các lệnh sau để kiểm tra:
 
@@ -68,18 +68,18 @@ npm run lint
 
 ---
 
-## 🎯 Expected Result:
+## Expected Result:
 
 Sau khi restart TS Server, bạn sẽ thấy:
 
-- ✅ Không còn lỗi đỏ `Cannot find module 'react'`
-- ✅ IntelliSense hoạt động (autocomplete)
-- ✅ Type checking hoạt động
-- ✅ Import statements màu xanh bình thường
+- Không còn lỗi đỏ `Cannot find module 'react'`
+- IntelliSense hoạt động (autocomplete)
+- Type checking hoạt động
+- Import statements màu xanh bình thường
 
 ---
 
-## ⚠️ Nếu vẫn còn lỗi:
+## Nếu vẫn còn lỗi:
 
 ### Option 1: Restart VS Code hoàn toàn
 
@@ -118,11 +118,11 @@ File `tsconfig.json` phải có:
 }
 ```
 
-✅ Đã OK rồi, không cần sửa gì thêm!
+Đã OK rồi, không cần sửa gì thêm!
 
 ---
 
-## 📋 Quick Commands:
+## Quick Commands:
 
 ```bash
 # Development
@@ -143,7 +143,7 @@ npm install
 
 ---
 
-## 🎨 Project Structure:
+## Project Structure:
 
 ```
 frontend/
@@ -155,14 +155,14 @@ frontend/
 │   ├── Button.tsx
 │   ├── Input.tsx
 │   └── Card.tsx
-├── node_modules/            ← ✅ Installed!
+├── node_modules/            ← Installed!
 ├── package.json
 └── tsconfig.json
 ```
 
 ---
 
-## 🆘 Still Having Issues?
+## Still Having Issues?
 
 1. **Screenshot**: Chụp màn hình lỗi
 2. **Check**: Output của `npm install`
@@ -170,16 +170,16 @@ frontend/
 
 ---
 
-## ✨ Summary:
+## Summary:
 
-1. ✅ Fixed `package.json` với exact versions
-2. ✅ Cleaned old `node_modules`
-3. ✅ Installed all dependencies (392 packages)
-4. ✅ Verified React & TypeScript types
-5. 🔄 **Next**: Restart TypeScript Server trong VS Code
+1. Fixed `package.json` với exact versions
+2. Cleaned old `node_modules`
+3. Installed all dependencies (392 packages)
+4. Verified React & TypeScript types
+5. **Next**: Restart TypeScript Server trong VS Code
 
 ---
 
 **Lưu ý**: Lỗi `Cannot find module 'react'` là do VS Code TypeScript Server cache cũ. Sau khi restart TS Server là OK ngay!
 
-🎉 **Happy coding!**
+**Happy coding!**
